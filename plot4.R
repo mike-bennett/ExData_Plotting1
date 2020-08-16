@@ -48,5 +48,5 @@ with(power, plot(Date_time, Global_reactive_power, type = "l"))
 
 
 ## Copy to .png and close graphics device
-dev.copy(png, "plot4.png")
+dev.copy(png, "plot4.png", width = 550)
 dev.off()

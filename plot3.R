@@ -25,5 +25,5 @@ legend("topright", col = c("black", "red", "blue"), lty = c(1, 1, 1),
 title(ylab = "Energy sub metering")
 
 ## Copy to .png and close graphics device
-dev.copy(png, "plot3.png")
+dev.copy(png, "plot3.png", width = 550, height = 480)
 dev.off()
